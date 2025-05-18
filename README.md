@@ -78,4 +78,4 @@ student-portal/
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For any questions or suggestions, feel free to contact the project maintainer at `your-email@example.com`.
+For any questions or suggestions, feel free to contact the project maintainer at `henry38ernest@gmail.com`.
