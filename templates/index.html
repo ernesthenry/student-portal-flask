@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}All Students{% endblock %}
+{% block content %}
+  <h2>All Students</h2>
+  <ul>
+    {% for student in students %}
+      <li><a href="{{ url_for('view_student', student_id=student.id) }}">{{ student.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h3>Add a New Student</h3>
+  <form method="post" action="{{ url_for('add_student') }}">
+    <input name="name" placeholder="Name" required>
+    <input name="course" placeholder="Course" required>
+    <button type="submit">Add Student</button>
+  </form>
+{% endblock %}
