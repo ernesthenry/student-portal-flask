@@ -20,7 +20,7 @@ This project is a **Student Portal** built using the Flask framework. It is desi
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/student-portal.git
+    git clone https://github.comyernesthenry/student-portal-flask.git
     cd student-portal
     ```
 
